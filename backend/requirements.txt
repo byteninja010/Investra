@@ -1,0 +1,25 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sse-starlette>=2.0.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# LangChain / LangGraph
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# Financial Data
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.24.0
+ta>=0.11.0
+
+# Search
+tavily-python>=0.5.0
+
+# RAG (Phase 2)
+# langchain-chroma>=0.1.0
+# chromadb>=0.5.0
