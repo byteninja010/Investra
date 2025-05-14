@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+chroma_db/
+*.sqlite3
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# OS
+.DS_Store
+Thumbs.db

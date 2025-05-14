@@ -7,7 +7,7 @@ import { useState, useCallback, useRef } from 'react';
 import type { AgentEvent, AgentState, AgentName, AnalysisStatus, InvestmentProfile, AllocationItem } from '../types';
 import { AGENT_CONFIG } from '../types';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
 /** Initialize agent tracking state */
 function createInitialAgents(): Map<AgentName, AgentState> {
